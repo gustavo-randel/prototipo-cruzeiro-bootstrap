@@ -1,0 +1,26 @@
+main section.cover-container {
+  background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('./fotos/cover.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.card img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+section#cover-container {
+  background: 
+    linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('./fotos/praia.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 32rem;
+}
